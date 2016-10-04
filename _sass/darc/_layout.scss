@@ -140,3 +140,25 @@
 
 #card-3 {
 }
+
+/*
+ * Post Table
+ */
+.post-content table {
+  margin-bottom: 20px;
+  border: 1px solid black;
+  padding: 0;
+  background: black;
+}
+
+th {
+  background: whitesmoke;
+  padding: 15px;
+}
+
+td {
+  background: white;
+  padding: 7px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
