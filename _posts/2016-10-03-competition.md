@@ -17,15 +17,13 @@ This document outlines the first competiton's rules and scoring.
 
 ## Rules and Scoring
 
-| Task                   	| Score       	|
-|------------------------	|-------------	|
-| Block in Safe Zone     	| 1 per block 	|
-| Block in Center Zone   	| 3 per block 	|
-| Block in Team's Bucket 	| 5 per block 	|
-| Flag in Team's pipe    	| 20          	|
-
-
-
+| Task                   | Score       |
+|------------------------|-------------|
+| Block in Safe Zone     | 1 per block |
+| Block in Center Zone   | 3 per block |
+| Block in Team's Bucket | 5 per block |
+| Flag in Team's pipe    | 20          |
+  
 * 2 minute main round
 * Points are tallied at the end of a round
 * At the beginning of the game, each robot starts touching the wall on the side of their team’s pipe but outside of their safezone.
