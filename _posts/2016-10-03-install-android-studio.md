@@ -24,16 +24,17 @@ git clone https://github.com/darobotics/ftc_app
 
 4) Open Android Studio (In the Finder go to Applications > Android Studio). 
 
-  - If you see “Missing SDK”, continue to press next. ![SDK-error][sdk-error]
-
 
 5) Open the project. It is in `/Users/username/workspace/ftc_app`. ![Welcome][welcome]
 
 
 6) When the project opens, click on “Install missing platform(s) and sync project”.
 
-  - When you see “Failed to sync Gradle project ‘ftc_app’”, this is normal. Click the blue link at the bottom to fix the error. You may need to do this more than once. ![Sync-error][sync-error]
+  - If you see “Failed to sync Gradle project ‘ftc_app’”, this is normal. Click the blue link at the bottom to fix the error. You may need to do this more than once. ![Sync-error][sync-error]
 
+  - If you see “Missing SDK”, continue to press next. ![SDK-error][sdk-error]
+
+7) Complete!
 
 
 [android-studio]: https://developer.android.com/studio/index.html
