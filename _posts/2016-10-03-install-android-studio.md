@@ -25,7 +25,7 @@ git clone https://github.com/darobotics/ftc_app
 4) Open Android Studio (In the Finder go to Applications > Android Studio). 
 
 
-5) Open the project. It is in `/Users/username/workspace/ftc_app`. ![Welcome][welcome]
+5) Click `Import project (Eclipse ADT, Gradle, etc.)`. It is in `/Users/username/workspace/ftc_app`. ![Welcome][welcome]
 
 
 6) When the project opens, click on “Install missing platform(s) and sync project”.
