@@ -24,15 +24,24 @@
 }
 
 .site-header .background {
+}
+
+.site-header .background img {
   height: $header-height;
-  background: $header-image;
-  background-size: cover;
+  object-fit: cover;
   position: fixed;
-  top: 0;
+  top: -(($header-height-absolute - $header-height) / 2);
   right: 0;
   left: 0;
   width: 100%;
-  z-index: -1;
+  height: $header-height-absolute;
+  z-index: -2;
+  user-drag: none;
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-drag: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
 }
 
 .site-header .background .title {
@@ -41,6 +50,11 @@
   height: $header-height;
   line-height: $header-height;
   white-space: nowrap;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: -1;
 }
 
 .site-title {
@@ -50,7 +64,7 @@
   letter-spacing: -1px;
   margin-bottom: 0;
   float: left;
-  color: $menu-text-color;
+  color: $menu-text-color !important;
   text-decoration: none !important;
 
   &,
