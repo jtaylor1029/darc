@@ -14,6 +14,7 @@ date:   2016-10-03 15:30:50 -0400
 
 3) Enter the following lines into the terminal window: (Note: copy the commands **exactly**. The `~` character is at the top left of the keyboard).
 
+  - You may need to install [git][install-git] if you have not done so already.
 
 ```
 mkdir ~/workspace
@@ -38,6 +39,7 @@ git clone https://github.com/darobotics/ftc_app
 
 
 [android-studio]: https://developer.android.com/studio/index.html
+[install-git]: https://git-scm.com/downloads
 [welcome]: {{ site.url }}/assets/posts/2016-10-03-install-android-studio/welcome.png
 [sdk-error]: {{ site.url }}/assets/posts/2016-10-03-install-android-studio/sdk-error.png
 [sync-error]: {{ site.url }}/assets/posts/2016-10-03-install-android-studio/sync-error.png
