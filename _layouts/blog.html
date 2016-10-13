@@ -16,7 +16,7 @@ layout: default
         <a class="post-link" href="{{ post.url | prepend: full_base_url }}">{{ post.title | escape }}</a>
 
         {% if post.image %}
-            <a href="{{ post.url | prepend: full_base_url }}"><img src="{{ post.image | prepend: full_base_url }}"></a>
+            <a href="{{ post.url | prepend: full_base_url }}" id="featured-image"><img src="{{ post.image | prepend: full_base_url }}"></a>
         {% endif %}
 
     </li>

@@ -83,6 +83,10 @@
   border-bottom: solid 1px lightgray;
   margin: 0;
   padding: 0;
+  width: 100%;
+  line-height: 150px;
+  height: 150px;
+  overflow: hidden;
 }
 
 .post-list li a {
@@ -93,6 +97,9 @@
 
 .post-list li img {
   display: inline-block;
+}
+
+#featured-image {
   float: right;
 }
 
