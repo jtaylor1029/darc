@@ -30,7 +30,7 @@
   height: $header-height;
   object-fit: cover;
   position: fixed;
-  top: -(($header-height-absolute - $header-height) / 2);
+  top: 0; /* -(($header-height-absolute - $header-height) / 2); */
   right: 0;
   left: 0;
   width: 100%;

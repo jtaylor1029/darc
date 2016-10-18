@@ -1,21 +1,26 @@
-const FADE_TITLE = 25/100;  // percent of screen
-const CHANGE_MENU = 62/100;
+const FADE_TITLE = 30/100;  // percent of screen
+const CHANGE_MENU = 60/100;
 
-$(window).scroll(
-    function() {
-        var scrollTop = $( window ).scrollTop()
-        var windowHeight = $( window ).height()
+const default_color = .35;
 
-        if ( scrollTop < windowHeight * FADE_TITLE ) {
-            $(".title").fadeIn(100);
-        } else {
-            $(".title").fadeOut(500);
-        }
+const header_height = 70/100;
+const header_height_absolute = 90/100;
 
-        if ( scrollTop < windowHeight * CHANGE_MENU ) {
-            $(".menu").css("background-color","rgba(0, 0, 0, .25)");
-        } else {
-            $(".menu").css("background-color","#3E4040");
-        }
-    }
-);
+const speed = 80/100;
+
+
+
+$( window ).scroll(function() {
+
+        var scrollTop = $( window ).scrollTop();
+        var windowHeight = $( window ).height();
+
+        $('.title').css({'opacity': ( windowHeight * FADE_TITLE - scrollTop ) / 100});
+
+        $('.menu').css({'background-color': 'rgba(62,64,64, ' + (Math.max((scrollTop - windowHeight * CHANGE_MENU)/100*2, 0) + default_color)  +')'});
+
+        var bottom = -(header_height_absolute*windowHeight - header_height*windowHeight);
+
+        $('img').css({'top': bottom * scrollTop/100 * speed});
+
+});
