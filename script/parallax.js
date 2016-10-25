@@ -6,8 +6,6 @@ const default_color = .35;
 const header_height = 70/100;
 const header_height_absolute = 90/100;
 
-const speed = 80/100;
-
 
 
 $( window ).scroll(function() {
@@ -21,6 +19,9 @@ $( window ).scroll(function() {
 
         var bottom = -(header_height_absolute*windowHeight - header_height*windowHeight);
 
-        $('img').css({'top': bottom * scrollTop/100 * speed});
+        var pageOffsetMax = header_height*windowHeight;
+        var pageOffsetPercent = scrollTop/(pageOffsetMax - 0);
+
+        $('img').css({'top': (0 - windowHeight - bottom) * pageOffsetPercent});
 
 });
