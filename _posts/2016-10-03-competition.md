@@ -4,7 +4,7 @@ tag: news
 pin-menu: true
 pin-card: "card-1"
 title:  "Competition"
-image:  "/assets/posts/2016-10-03-competition/diagram-featured.png"
+thumb: "/assets/posts/2016-10-03-competition/diagram-featured.png"
 author: "Xander"
 date:   2016-10-03 15:30:50 -0400
 ---

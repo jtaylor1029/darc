@@ -2,6 +2,7 @@
 layout: page
 pin-menu: true
 pin-card: "card-0"
+image:  "/assets/pages/about/FTC-robotics.jpeg"
 title: About
 permalink: /about/
 ---

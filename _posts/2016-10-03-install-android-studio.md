@@ -2,7 +2,7 @@
 layout: post
 tag: resources
 title:  "Setting up Android Studio"
-image:  "/assets/posts/2016-10-03-install-android-studio/android.png"
+thumb:  "/assets/posts/2016-10-03-install-android-studio/android.png"
 date:   2016-10-03 15:30:50 -0400
 ---
 

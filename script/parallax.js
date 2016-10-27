@@ -17,11 +17,15 @@ $( window ).scroll(function() {
 
         $('.menu').css({'background-color': 'rgba(62,64,64, ' + (Math.max((scrollTop - windowHeight * CHANGE_MENU)/100*2, 0) + default_color)  +')'});
 
-        var bottom = -(header_height_absolute*windowHeight - header_height*windowHeight);
+        var bottom = -(header_height_absolute*windowHeight - header_height*windowHeight)/2;
 
         var pageOffsetMax = header_height*windowHeight;
         var pageOffsetPercent = scrollTop/(pageOffsetMax - 0);
 
-        $('img').css({'top': (0 - windowHeight - bottom) * pageOffsetPercent});
+        if (scrollTop < windowHeight*header_height) {
+
+                $('#parallax-header').css({'top': (0 - windowHeight - bottom) * pageOffsetPercent});
+
+        }
 
 });
