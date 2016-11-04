@@ -1,6 +1,22 @@
 /**
  * Page content
  */
+@media print {
+  .page-content {
+    margin-top: 0px !important;
+  }
+
+  .print-only {
+    line-height: 1em;
+    font-size: 50px;
+    display: inherit !important;
+  }
+}
+
+.print-only {
+  display: none;
+}
+
 .page-content {
   margin-top: $header-height;
   padding: $spacing-unit 0;

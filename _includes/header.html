@@ -1,6 +1,6 @@
 <header class="site-header" role="banner">
 
-  <div class="menu">
+  <div class="menu no-print">
     <div class="wrapper">
 
       {% assign custom_url = site.url | append: site.baseurl %}
@@ -32,9 +32,9 @@
       {{ page.title }}
     </h1>
     {% if page.image %}
-      <img id="parallax-header" src="{{ page.image | prepend: full_base_url }}">
+      <img id="parallax-header" class="no-print" src="{{ page.image | prepend: full_base_url }}">
     {% else %}
-      <img id="parallax-header" src="{{ "/assets/images/header.jpg" | prepend: full_base_url }}">
+      <img id="parallax-header" class="no-print" src="{{ "/assets/images/header.jpg" | prepend: full_base_url }}">
     {% endif %}
   </div>
 
