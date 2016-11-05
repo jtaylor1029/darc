@@ -40,6 +40,6 @@ git clone https://github.com/darobotics/ftc_app
 
 [android-studio]: https://developer.android.com/studio/index.html
 [install-git]: https://git-scm.com/downloads
-[welcome]: {{ site.url }}/assets/posts/2016-10-03-install-android-studio/welcome.png
-[sdk-error]: {{ site.url }}/assets/posts/2016-10-03-install-android-studio/sdk-error.png
-[sync-error]: {{ site.url }}/assets/posts/2016-10-03-install-android-studio/sync-error.png
+[welcome]: {{ site.baseurl }}/assets/posts/2016-10-03-install-android-studio/welcome.png
+[sdk-error]: {{ site.baseurl }}/assets/posts/2016-10-03-install-android-studio/sdk-error.png
+[sync-error]: {{ site.baseurl }}/assets/posts/2016-10-03-install-android-studio/sync-error.png

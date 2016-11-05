@@ -1,5 +1,5 @@
 # darobotics.github.io
-[![Build Status](https://travis-ci.org/darobotics/darobotics.github.io.svg?branch=master)](https://travis-ci.org/darobotics/darobotics.github.io)
+[![Build Status](https://travis-ci.org/darobotics/darc.svg?branch=master)](https://travis-ci.org/darobotics/darc)
 
 Note: This theme is based off of [minima](https://github.com/jekyll/minima/).
 
@@ -33,7 +33,8 @@ Options
 | --- | --- | --- | --- |
 | "The Title" | "My Name" | "/assets/posts/yyyy-mm-dd-post-title/filename.png" | yyyy-mm-dd hh:mm:ss +- UTC |
 
-Note: The `image` is the parallax header and the `thumb` should be 150x150px
+Note: The `image` is the parallax header and the `thumb` should be 150x150px.
+A link can be added to a front card by editing the `index.html` front matter to include `card-x` and `card-x-url`. These urls are site-wide exclusively.
 
 ## Markdown
 This Jekyll project uses kramdown style markdown. This is different from GitHub's flavor of markdown. [Here is a quick reference.](http://kramdown.gettalong.org/quickref.html)
@@ -42,7 +43,7 @@ Common uses include links and images.
 
 Images can be inserted like this: `![ImageName][image-reference]`. Then at the bottom of the page, type (for example):
 ```
-[image-reference]: {{ site.url }}/assets/posts/2016-10-03-install-android-studio/sync-error.png
+[image-reference]: {{ site.baseurl }}/assets/posts/2016-10-03-install-android-studio/sync-error.png
 ```
 Links can be inserted like this: `[Android Studio][android-studio]`. Then at the bottom of the page, type (for example):
 ```
@@ -50,12 +51,5 @@ Links can be inserted like this: `[Android Studio][android-studio]`. Then at the
 ```
 
 # Local Development
-
-Change the `_config.yml` file so that `url` and `github_username` look like this:
-
-```
-url: "http://127.0.0.1:4000" # the base hostname & protocol for your site
-github_username:
-```
 
 Run `bundle exec jekyll serve` to star the server and go to [http://127.0.0.1:4000](http://127.0.0.1:4000).

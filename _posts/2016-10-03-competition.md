@@ -61,4 +61,4 @@ This document outlines the first competiton's rules and scoring.
   - E.g. scoring a block after the team has placed the flag causes the score to not count  (in addition to the penalty), while removing the same block later causes the team to still lose points equal to the block value
 
 
-[diagram]: {{ site.url }}/assets/posts/2016-10-03-competition/diagram.png
+[diagram]: {{ site.baseurl }}/assets/posts/2016-10-03-competition/diagram.png
