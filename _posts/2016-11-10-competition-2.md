@@ -3,7 +3,7 @@ layout: post
 tag: news
 pin-menu: true
 pin-card: "card-1"
-title:  "Competition 2"
+title:  "Competition"
 thumb: "/assets/posts/2016-11-10-competition-2/diagram-featured.png"
 author: "Xander"
 date:   2016-11-10 16:45:20 -0400
