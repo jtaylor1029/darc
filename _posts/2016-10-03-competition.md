@@ -1,7 +1,7 @@
 ---
 layout: post
 tag: news
-title:  "Competition"
+title:  "November Competition"
 thumb: "/assets/posts/2016-10-03-competition/diagram-featured.png"
 author: "Xander"
 date:   2016-10-03 15:30:50 -0400
