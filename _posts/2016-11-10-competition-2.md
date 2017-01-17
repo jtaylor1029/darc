@@ -19,14 +19,14 @@ For the second competition, a 30-second autonomous period is added and the drive
 
 ## Rules and Scoring
 
-### Autonomous
+#### Autonomous
 
 | Task                   | Score       |
 |------------------------|-------------|
 | Block in White Zone    | 15          |
 | Touching Wall          | 15          |
 
-### Driver Control
+#### Driver Control
 
 | Task                   | Score       |
 |------------------------|-------------|
