@@ -155,7 +155,7 @@ The following types of mechanisms and components are not allowed:
  
 * Those that could potentially damage Playing Field components 
 * Those that could potentially damage other competing Robots.
-* Those that contain hazardous materials such as mercury switches, lead, or lead containing compounds, or lithium polymer batteries* .  Those that pose an unnecessary risk of entanglement. 
+* Those that contain hazardous materials such as mercury switches, lead, or lead containing compounds, or lithium polymer batteries. Those that pose an unnecessary risk of entanglement. 
 * Those that contain sharp edges or corners.
 * Those that contain animal-based materials (due to health and safety concerns). 
 * Those that contain liquid or gel materials.
