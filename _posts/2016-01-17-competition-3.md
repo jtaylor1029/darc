@@ -35,13 +35,12 @@ Be prepared to battle! The basic idea of this round of competition is that there
 
 ### Driver Control
 
-| Task                               | Score       |
-|------------------------------------|-------------|
-| Opposing team robot declared "out" | 15          |
-| Follow center zone border          | 15          |
-| Stop robot on designated point     | 20          |
+| Task                               | Score                          |
+|------------------------------------|--------------------------------|
+| Opposing team robot declared "out" | 15                             |
+| End-game position                  | 48 - distance from center (in) |
   
-## Competition Specifications
+## Specifications
 
 * 30 seconds autonomous round, 2 minute main round with a 30-second end game
 * Points are tallied at the end of each round
@@ -99,14 +98,15 @@ Be prepared to battle! The basic idea of this round of competition is that there
   - Robots compete to finish close to the center of the field
   - No outs are declared and no resets occur
   - When the round ends:
-    - 48 points subtracted by 1 point for each inch away from the center of the field
+    - 48 points; 1 point subtracted for each inch away from the center of the field
       - The closest point on the robot is used for this measurement
       - Robots will not lose points by being too far away
       - Judges have final say on the precise measured value
 
 
+## Modified Ranking Rules
 
-## Modified Ranking Rules (Adapted from FTC Game Manual - Part 1)
+(Adapted from FTC Game Manual - Part 1)
 
 At the conclusion of each Match, Qualifying Points (QP) and Ranking Points (RP) are awarded:  
 
@@ -123,7 +123,10 @@ At the conclusion of each Match, Qualifying Points (QP) and Ranking Points (RP) 
 At the conclusion of all Qualification Matches, the Teams are ranked from first through last on the basis of their total Qualifying Points (QPs). If multiple Teams have the same QP total, these Teams are ranked on the basis of their total Ranking Points (RPs).
 
 
-## Robot specs 
+## Modified Robot Rules
+
+(Adapted from FTC Game Manual - Part 1)
+
 * Be safe!
 * Robot restrictions:
   - Fit inside an 18 in x 18 in x 18 in box (FTC robot size) at the start of each round
@@ -135,8 +138,7 @@ At the conclusion of all Qualification Matches, the Teams are ranked from first 
 * If you’re ever unsure, ask a judge for clarification
 * Follow the Modified FTC robot rules specified below
 
-
-## Modified Robot Rules (Adapted from FTC Game Manual - Part 1)
+#### General Guidelines
 
 When considering your robot design and your game strategy, ask yourself the following questions. If the answer to any of these questions is yes, the design component is probably not allowed:
 
