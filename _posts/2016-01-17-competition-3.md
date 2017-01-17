@@ -13,7 +13,7 @@ date:   2017-01-17 16:45:20 -0500
 This document outlines the third competiton's rules and scoring. 
 
 ## Updates
-For the third competition, we're introducing a brand new format - SumoBots! Please read the rules carefully - robots who violate any part of the rules may be disqualified. Judges have final discretion over the interpretation of the DARC rules.
+For the third competition, we're introducing a brand new format - SumoBots! Please read the rules carefully - robots who violate any part of the rules may be disqualified. ** Judges have final discretion over the interpretation of the DARC rules. **
 
 
 ## Introduction
@@ -104,7 +104,7 @@ Be prepared to battle! The basic idea of this round of competition is that there
       - Judges have final say on the precise measured value
 
 
-## Modified Ranking Rules
+## Ranking
 
 (Adapted from FTC Game Manual - Part 1)
 
@@ -123,7 +123,7 @@ At the conclusion of each Match, Qualifying Points (QP) and Ranking Points (RP) 
 At the conclusion of all Qualification Matches, the Teams are ranked from first through last on the basis of their total Qualifying Points (QPs). If multiple Teams have the same QP total, these Teams are ranked on the basis of their total Ranking Points (RPs).
 
 
-## Modified Robot Rules
+## Robot Rules
 
 (Adapted from FTC Game Manual - Part 1)
 
