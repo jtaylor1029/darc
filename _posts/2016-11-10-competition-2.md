@@ -1,8 +1,7 @@
 ---
 layout: post
 tag: news
-pin-menu: true
-pin-card: "card-1"
+pin-menu: false
 title:  "December Competition"
 thumb: "/assets/posts/2016-11-10-competition-2/diagram-featured.png"
 author: "Serena"
