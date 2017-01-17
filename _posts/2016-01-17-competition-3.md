@@ -13,7 +13,7 @@ date:   2017-01-17 16:45:20 -0500
 This document outlines the third competiton's rules and scoring. 
 
 ## Updates
-For the third competition, we're introducing a brand new format - SumoBots! Please read the rules carefully - robots who violate any part of the rules may be disqualified. ** Judges have final discretion over the interpretation of the DARC rules. **
+For the third competition, we're introducing a brand new format - SumoBots! Please read the rules carefully - robots who violate any part of the rules may be disqualified. Judges have final discretion over the interpretation of the DARC rules.
 
 
 ## Introduction
