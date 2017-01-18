@@ -118,6 +118,8 @@ At the conclusion of each Match, Qualifying Points (QP) and Ranking Points (RP) 
 * Ranking Points (RP) are awarded based on the following:
   - The number of Ranking Points assigned for each match is that of the losing team’s score. Both team receive the pre-penalized score of the losing team as their Ranking Points.
   - In the event of a tie, both teams receive the same number of Ranking Points, equal to the lowest pre-penalized score. If a team is disqualified, they receive zero (0) Ranking Points.
+  - If the losing team is disqualified, the winning team are awarded their own score as their RP for that Match.
+
 
 At the conclusion of all Qualification Matches, the teams are ranked from first through last on the basis of their total Qualifying Points (QPs). If multiple teams have the same QP total, these teams are ranked on the basis of their total Ranking Points (RPs).
 
