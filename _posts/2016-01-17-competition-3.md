@@ -111,16 +111,15 @@ Be prepared to battle! The basic idea of this round of competition is that there
 At the conclusion of each Match, Qualifying Points (QP) and Ranking Points (RP) are awarded:  
 
 * Teams receive Qualifying Points based on the following:
-  - Winning Teams of a Qualifying Match each receive two (2) Qualifying Points.
-  - Losing Teams of a Qualifying Match receive zero (0) Qualifying Points.
-  - If a Qualifying Match ends in a tie, all four Teams receive one (1) Qualifying Points.
-  - If a Team is disqualified, they receive zero (0) Qualifying Points.
+  - Winning team receive two (2) Qualifying Points.
+  - Losing team receive zero (0) Qualifying Points.
+  - If a match ends in a tie, both teams receive one (1) Qualifying Points.
+  - If a team is disqualified, they receive zero (0) Qualifying Points.
 * Ranking Points (RP) are awarded based on the following:
-  - The number of Ranking Points assigned for each Match is that of the losing Alliance’s score. Both Alliances receive the pre-penalized score of the losing Alliance as their Ranking Points.
-  - In the Event of a tie, both Alliances receive the same number of Ranking Points, equal to the lowest pre-penalized score. If a Team is disqualified, they receive zero (0) Ranking Points.
-  - If both Teams on an Alliance are disqualified, the Teams on the winning Alliance are awarded their own score as their RP for that Match.
+  - The number of Ranking Points assigned for each match is that of the losing team’s score. Both team receive the pre-penalized score of the losing team as their Ranking Points.
+  - In the event of a tie, both teams receive the same number of Ranking Points, equal to the lowest pre-penalized score. If a team is disqualified, they receive zero (0) Ranking Points.
 
-At the conclusion of all Qualification Matches, the Teams are ranked from first through last on the basis of their total Qualifying Points (QPs). If multiple Teams have the same QP total, these Teams are ranked on the basis of their total Ranking Points (RPs).
+At the conclusion of all Qualification Matches, the teams are ranked from first through last on the basis of their total Qualifying Points (QPs). If multiple teams have the same QP total, these teams are ranked on the basis of their total Ranking Points (RPs).
 
 
 ## Robot Rules
@@ -167,7 +166,8 @@ The following types of mechanisms and components are not allowed:
 
 Because this competition is intentionally designed for there to be physical contact between robots, there needs to be a line between what constitutes as within the rules, and what does not. Judges make the final decision in deciding whether a robot or a part of a robot is permitted to compete in the competition. If you have any questions, make sure to contact the judges of the competition beforehand.
 
-A robot should be able to withstand:
+A robot should be able to withstand
+
 * The force of another robot driving into it, in the form of pushing or accidental collision
 * Being flipped
 * Being grabbed or held by another robot
